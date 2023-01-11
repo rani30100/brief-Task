@@ -1,0 +1,23 @@
+.task {
+    display: flex;
+    background-color: lightblue;
+    padding: 0.5rem;
+}
+.task button:first-of-type {
+    margin-left: auto;
+}
+.task button {
+    margin-left: 0.5rem;
+}
+
+.task span {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.25rem;
+}
+
+.task input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+}
+
+
